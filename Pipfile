@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+django = "*"
+django-environ = "*"
+django-redis = "*"
+django-widget-tweaks = "*"
+django-stdimage = "*"
+
+#Auth packages
+django-allauth = "*"
+
+#Database
+mysqlclient = "*"
+
+[dev-packages]
+django-debug-toolbar = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.8"

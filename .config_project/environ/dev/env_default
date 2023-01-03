@@ -1,0 +1,32 @@
+# Django
+DEBUG=True
+SECRET_KEY="_0x80^^v)00(e6mt-soxem2=jig6^#v97r)&t&_anbkya%koty"
+INTERNAL_IPS=127.0.0.1,192.168.2.0
+ALLOWED_HOSTS=127.0.0.1,localhost,*
+
+# Error Messages
+ADMINS=[["Roger Arjona", "me@rogerarjona.dev"]]
+MANAGERS=[["Roger Arjona", "me@rogerarjona.dev"]]
+
+# DATABASES
+DB_ENGINE=PostgreSQL
+DATABASE_URL=psql://test_user:test_pass@127.0.0.1:5432/test_db
+
+# EMAIL
+EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
+EMAIL_URL=smtp+tls://test_email@gmail.com:tdmfzlltkmejxkcg@smtp.gmail.com:587
+DEFAULT_FROM_EMAIL=Notificaciones<notificaciones@test_email>
+
+# AWS
+ENABLE_REMOTE_STORAGE=False
+
+# Log
+DISABLE_EXISTING_LOGGERS=off
+LOG_CONSOLE_LEVEL=INFO
+LOG_FILE_DJANGO_LEVEL=INFO
+
+# Admin Vars
+ADMIN_SITE_HEADER=Header Admin
+ADMIN_SITE_TITLE=Admin Title
+ADMIN_SITE_INDEX_TITLE=Admin Index Title
+PROJECT=Directorio Wisp
